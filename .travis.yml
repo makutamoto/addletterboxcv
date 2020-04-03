@@ -1,7 +1,7 @@
 language: python3
 python:
   - '3.7'
-cache: pip3
+cache: pip
 install:
   - pip3 install opencv-python
   - pip3 install numpy
