@@ -1,0 +1,10 @@
+language: python3
+python:
+  - '3.7'
+cache: pip3
+install:
+  - pip3 install opencv-python
+  - pip3 install numpy
+  - pip3 install tqdm
+script:
+  - ./src/addletterbox/__init__.py
